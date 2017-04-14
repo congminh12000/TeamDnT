@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rscustomer" value="name:customergender;datatype:int,name:customerfullname;datatype:int,name:customergroup;datatype:int,name:customeremail;datatype:int,name:customerphonenumber;datatype:int,name:customercompany;datatype:int,name:customerstatus;datatype:int,name:ID_customer;datatype:int" />
+</info>

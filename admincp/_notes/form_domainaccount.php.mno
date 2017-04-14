@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rs_sortcustomer" value="name:ID_customer;datatype:int,name:customerfullname;datatype:string" />
+	<infoitem key="UD_rs_sortcustomer1" value="name:ID_customer;datatype:int,name:customerfullname;datatype:string" />
+	<infoitem key="UD_rs_sortsupplier" value="name:ID_supplier;datatype:int,name:suppliername;datatype:string" />
+	<infoitem key="UD_rsdomainaccount" value="name:ID_customer;datatype:int,name:ID_supplier;datatype:int,name:domainusername;datatype:int,name:domainpassword;datatype:int,name:domainlink;datatype:int,name:domainemailregistration;datatype:int,name:ID_domainaccount;datatype:int" />
+</info>

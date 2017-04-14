@@ -1,0 +1,644 @@
+[Fri Apr 14 00:07:34.240658 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35
+[Fri Apr 14 00:07:34.240753 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Stack trace:
+[Fri Apr 14 00:07:34.240770 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:34.240816 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35
+[Fri Apr 14 00:07:34.240822 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Stack trace:
+[Fri Apr 14 00:07:34.240828 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:34.242965 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35
+[Fri Apr 14 00:07:34.242977 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Stack trace:
+[Fri Apr 14 00:07:34.242985 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:34.242993 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:35
+[Fri Apr 14 00:07:34.243010 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 37
+[Fri Apr 14 00:07:34.243016 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Stack trace:
+[Fri Apr 14 00:07:34.243021 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:34.243031 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 37
+[Fri Apr 14 00:07:34.243035 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP Stack trace:
+[Fri Apr 14 00:07:34.243041 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:34.243046 2017] [:error] [pid 79450] [client 127.0.0.1:54584] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:37
+[Fri Apr 14 00:07:46.687568 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:07:46.687648 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP Stack trace:
+[Fri Apr 14 00:07:46.687671 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:46.687679 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:07:46.687685 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:07:46.687710 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:07:46.687716 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP Stack trace:
+[Fri Apr 14 00:07:46.687721 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:46.687727 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:07:46.687732 2017] [:error] [pid 79451] [client 127.0.0.1:54633] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:07:54.863911 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:07:54.863999 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP Stack trace:
+[Fri Apr 14 00:07:54.864016 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:54.864024 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:07:54.864030 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:07:54.864047 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:07:54.864052 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP Stack trace:
+[Fri Apr 14 00:07:54.864057 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:07:54.864063 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:07:54.864068 2017] [:error] [pid 79450] [client 127.0.0.1:54658] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:08:39.200840 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:08:39.200919 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP Stack trace:
+[Fri Apr 14 00:08:39.200931 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:08:39.200938 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:08:39.200944 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:08:39.200958 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:08:39.200962 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP Stack trace:
+[Fri Apr 14 00:08:39.200967 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:08:39.200972 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:08:39.200978 2017] [:error] [pid 79451] [client 127.0.0.1:54823] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:08:47.591427 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:08:47.591500 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP Stack trace:
+[Fri Apr 14 00:08:47.591508 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:08:47.591514 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:08:47.591520 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:08:47.591534 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:08:47.591539 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP Stack trace:
+[Fri Apr 14 00:08:47.591544 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:08:47.591559 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:08:47.591564 2017] [:error] [pid 79450] [client 127.0.0.1:54844] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:22:01.895382 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:22:01.895521 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP Stack trace:
+[Fri Apr 14 00:22:01.895536 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:22:01.895550 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:22:01.895555 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:22:01.895570 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:22:01.895574 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP Stack trace:
+[Fri Apr 14 00:22:01.895578 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:22:01.895582 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:22:01.895586 2017] [:error] [pid 79450] [client 127.0.0.1:55028] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:22:16.091445 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:22:16.091519 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP Stack trace:
+[Fri Apr 14 00:22:16.091531 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:22:16.091538 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:22:16.091544 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:22:16.091558 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:22:16.091563 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP Stack trace:
+[Fri Apr 14 00:22:16.091568 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:22:16.091573 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:22:16.091578 2017] [:error] [pid 79451] [client 127.0.0.1:55093] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:23:19.497839 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:23:19.498030 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP Stack trace:
+[Fri Apr 14 00:23:19.498043 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:23:19.498049 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:23:19.498055 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:23:19.498087 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:23:19.498093 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP Stack trace:
+[Fri Apr 14 00:23:19.498098 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:23:19.498104 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:23:19.498109 2017] [:error] [pid 79451] [client 127.0.0.1:55344] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:23:27.898036 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:23:27.898114 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP Stack trace:
+[Fri Apr 14 00:23:27.898122 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:23:27.898129 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:23:27.898134 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:23:27.898154 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:23:27.898160 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP Stack trace:
+[Fri Apr 14 00:23:27.898165 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:23:27.898170 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:23:27.898175 2017] [:error] [pid 79450] [client 127.0.0.1:55369] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:24:15.178033 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:24:15.179962 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP Stack trace:
+[Fri Apr 14 00:24:15.179977 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:24:15.179985 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:24:15.179992 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:24:15.180009 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP Fatal error:  No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:24:15.180014 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP Stack trace:
+[Fri Apr 14 00:24:15.180019 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:24:15.180025 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:24:15.180031 2017] [:error] [pid 79451] [client 127.0.0.1:55495] PHP   3. trigger_error() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:25:56.130077 2017] [:error] [pid 79450] [client 127.0.0.1:55752] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:25:56.130281 2017] [:error] [pid 79450] [client 127.0.0.1:55752] PHP Stack trace:
+[Fri Apr 14 00:25:56.130301 2017] [:error] [pid 79450] [client 127.0.0.1:55752] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:25:56.130309 2017] [:error] [pid 79450] [client 127.0.0.1:55752] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:25:56.130315 2017] [:error] [pid 79450] [client 127.0.0.1:55752] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:26:09.873039 2017] [:error] [pid 79451] [client 127.0.0.1:55790] PHP Warning:  mysql_pconnect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:26:09.873131 2017] [:error] [pid 79451] [client 127.0.0.1:55790] PHP Stack trace:
+[Fri Apr 14 00:26:09.873142 2017] [:error] [pid 79451] [client 127.0.0.1:55790] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:26:09.873149 2017] [:error] [pid 79451] [client 127.0.0.1:55790] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:26:09.873154 2017] [:error] [pid 79451] [client 127.0.0.1:55790] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:12.377337 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:12.377430 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:12.377439 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:12.377447 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:12.377453 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:12.377465 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): Error while reading greeting packet. PID=79450 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:12.377470 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:12.377476 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:12.377482 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:12.377488 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:12.377499 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:12.377504 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:12.377510 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:12.377516 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:12.377522 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:13.093994 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:13.094074 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:13.094090 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:13.094097 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:13.094113 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:13.094124 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): Error while reading greeting packet. PID=79450 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:13.094129 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:13.094134 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:13.094139 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:13.094144 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:13.094154 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:13.094159 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:13.094163 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:13.094168 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:13.094173 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:13.510514 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:13.510541 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:13.510548 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:13.510554 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:13.510559 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:13.510569 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): Error while reading greeting packet. PID=79450 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:13.510573 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:13.510578 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:13.510583 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:13.510588 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:27:13.510598 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Warning:  mysql_pconnect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:27:13.510603 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP Stack trace:
+[Fri Apr 14 00:27:13.510607 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:27:13.510612 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:27:13.510617 2017] [:error] [pid 79450] [client 127.0.0.1:55943] PHP   3. mysql_pconnect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:34:18.900800 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:34:18.900986 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP Stack trace:
+[Fri Apr 14 00:34:18.900999 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:34:18.901006 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:34:18.901012 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:34:18.901024 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=79450 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:34:18.901029 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP Stack trace:
+[Fri Apr 14 00:34:18.901034 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:34:18.901040 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:34:18.901045 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:34:18.901055 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:34:18.901059 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP Stack trace:
+[Fri Apr 14 00:34:18.901064 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:34:18.901069 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:34:18.901074 2017] [:error] [pid 79450] [client 127.0.0.1:57267] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:34:54.058792 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:34:54.058920 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP Stack trace:
+[Fri Apr 14 00:34:54.058935 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:34:54.058956 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:34:54.058966 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:34:54.058983 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=79451 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:34:54.058990 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP Stack trace:
+[Fri Apr 14 00:34:54.058998 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:34:54.059006 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:34:54.059015 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:34:54.059031 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:34:54.059052 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP Stack trace:
+[Fri Apr 14 00:34:54.059061 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:34:54.059069 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:34:54.059077 2017] [:error] [pid 79451] [client 127.0.0.1:57409] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:01.492458 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:01.492535 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP Stack trace:
+[Fri Apr 14 00:35:01.492542 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:01.492549 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:01.492554 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:01.492565 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=79450 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:01.492569 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP Stack trace:
+[Fri Apr 14 00:35:01.492574 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:01.492579 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:01.492584 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:01.492594 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:01.492598 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP Stack trace:
+[Fri Apr 14 00:35:01.492602 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:01.492607 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:01.492613 2017] [:error] [pid 79450] [client 127.0.0.1:57439] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:13.450536 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:13.450613 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP Stack trace:
+[Fri Apr 14 00:35:13.450620 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:13.450626 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:13.450632 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:13.450642 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=79451 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:13.450647 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP Stack trace:
+[Fri Apr 14 00:35:13.450651 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:13.450667 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:13.450673 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:13.450683 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:13.450687 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP Stack trace:
+[Fri Apr 14 00:35:13.450692 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:13.450697 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:13.450702 2017] [:error] [pid 79451] [client 127.0.0.1:57489] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:40.095498 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:40.095573 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP Stack trace:
+[Fri Apr 14 00:35:40.095582 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:40.095589 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:40.095595 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:40.095605 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=79450 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:40.095609 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP Stack trace:
+[Fri Apr 14 00:35:40.095615 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:40.095620 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:40.095625 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:40.095635 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:40.095639 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP Stack trace:
+[Fri Apr 14 00:35:40.095644 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:40.095649 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:40.095654 2017] [:error] [pid 79450] [client 127.0.0.1:57600] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:56.569774 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:56.569852 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP Stack trace:
+[Fri Apr 14 00:35:56.569860 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:56.569866 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:56.569882 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:56.569893 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=79451 in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:56.569897 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP Stack trace:
+[Fri Apr 14 00:35:56.569902 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:56.569908 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:56.569913 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:35:56.569923 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP Warning:  mysql_connect(): MySQL server has gone away in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:35:56.569927 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP Stack trace:
+[Fri Apr 14 00:35:56.569932 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:35:56.569937 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:35:56.569942 2017] [:error] [pid 79451] [client 127.0.0.1:57662] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:36:45.755342 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:36:45.755416 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP Stack trace:
+[Fri Apr 14 00:36:45.755424 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:36:45.755431 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:36:45.755437 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:36:48.994408 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:36:48.994500 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP Stack trace:
+[Fri Apr 14 00:36:48.994508 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:36:48.994514 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:36:48.994520 2017] [:error] [pid 79450] [client 127.0.0.1:57837] PHP   3. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:38:01.038921 2017] [:error] [pid 79451] [client 127.0.0.1:58162] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 00:38:01.039111 2017] [:error] [pid 79451] [client 127.0.0.1:58162] PHP Stack trace:
+[Fri Apr 14 00:38:01.039177 2017] [:error] [pid 79451] [client 127.0.0.1:58162] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:38:01.039185 2017] [:error] [pid 79451] [client 127.0.0.1:58162] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:1
+[Fri Apr 14 00:38:01.039197 2017] [:error] [pid 79451] [client 127.0.0.1:58162] PHP   3. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 00:39:30.140021 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2
+[Fri Apr 14 00:39:30.140252 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP Stack trace:
+[Fri Apr 14 00:39:30.140271 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:39:30.140278 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP   2. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2
+[Fri Apr 14 00:39:34.612475 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2
+[Fri Apr 14 00:39:34.612554 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP Stack trace:
+[Fri Apr 14 00:39:34.612561 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 00:39:34.612568 2017] [:error] [pid 79450] [client 127.0.0.1:58524] PHP   2. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2
+[Fri Apr 14 17:20:26.247874 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2
+[Fri Apr 14 17:20:26.248099 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP Stack trace:
+[Fri Apr 14 17:20:26.248126 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:20:26.248133 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP   2. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2
+[Fri Apr 14 17:20:26.270766 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:20:26.270780 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:20:26.270785 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:20:26.270789 2017] [:error] [pid 12513] [client 127.0.0.1:52737] PHP   2. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:25.787346 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2
+[Fri Apr 14 17:22:25.787450 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP Stack trace:
+[Fri Apr 14 17:22:25.787476 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:22:25.787487 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP   2. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2
+[Fri Apr 14 17:22:25.810538 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:25.810562 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:25.810582 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:25.810592 2017] [:error] [pid 12512] [client 127.0.0.1:52742] PHP   2. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:30.884341 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2
+[Fri Apr 14 17:22:30.884410 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP Stack trace:
+[Fri Apr 14 17:22:30.884424 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:22:30.884438 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP   2. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2
+[Fri Apr 14 17:22:30.899391 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP Warning:  mysql_connect(): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/index.php on line 2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:30.899408 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:30.899414 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:22:30.899420 2017] [:error] [pid 12509] [client 127.0.0.1:52743] PHP   2. mysql_connect() /Users/PhanCongMinh/Web/teamdnt/index.php:2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:07.232280 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 37
+[Fri Apr 14 17:23:07.232351 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Stack trace:
+[Fri Apr 14 17:23:07.232369 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:23:07.247161 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 37, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:07.247175 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:07.247208 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:08.264700 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 37
+[Fri Apr 14 17:23:08.264772 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Stack trace:
+[Fri Apr 14 17:23:08.264778 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:23:08.279004 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 37, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:08.279016 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:08.279021 2017] [:error] [pid 12511] [client 127.0.0.1:52744] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:18.037862 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 17:23:18.037932 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP Stack trace:
+[Fri Apr 14 17:23:18.037938 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:23:18.037943 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:2
+[Fri Apr 14 17:23:18.037947 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP   3. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 17:23:18.046904 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:18.046918 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:18.046924 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:18.046938 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:23:18.046942 2017] [:error] [pid 12510] [client 127.0.0.1:52749] PHP   3. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.314127 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:20.320069 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:20.320098 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:20.320114 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:20.320119 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:20.320125 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:20.320148 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:20.320166 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:20.320188 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:20.320197 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 17:24:20.320245 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 17:24:20.320255 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:20.320263 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:20.320279 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 17:24:20.320285 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:20.320292 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:20.320299 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 17:24:20.341562 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341575 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341582 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341588 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341591 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341595 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341603 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341629 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341643 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341649 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341658 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341661 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341667 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341704 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341713 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341717 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:20.341721 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.112299 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:21.112394 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.112412 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.112419 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:21.112424 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.112446 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.112484 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:21.112490 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.112496 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.112500 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 17:24:21.112508 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 17:24:21.112511 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.112515 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.112521 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 17:24:21.112524 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.112528 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.112541 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 17:24:21.128675 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128692 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128698 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128704 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128707 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128712 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128720 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128724 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128728 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128732 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128770 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128774 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128810 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128821 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128825 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128829 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.128833 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.833019 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:21.833034 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.833040 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.833046 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:21.833049 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.833053 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.833061 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:21.833077 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.833081 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.833131 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 17:24:21.833143 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 17:24:21.833146 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.833151 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.833158 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 17:24:21.833161 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:21.833165 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:21.833169 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 17:24:21.851566 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: database_cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851580 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851586 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851592 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851595 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851623 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851642 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851650 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851658 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851679 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851698 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Notice:  Undefined variable: cnn_teamdnt in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851702 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851707 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851715 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851719 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851772 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:21.851780 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:25.144227 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10
+[Fri Apr 14 17:24:25.144300 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:
+[Fri Apr 14 17:24:25.144306 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:25.144310 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:2
+[Fri Apr 14 17:24:25.144314 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   3. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10
+[Fri Apr 14 17:24:25.152565 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php on line 10, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:25.152577 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:25.152582 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:25.152586 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   2. require_once() /Users/PhanCongMinh/Web/teamdnt/index.php:2, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:25.152590 2017] [:error] [pid 11489] [client 127.0.0.1:52754] PHP   3. mysqli_connect() /Users/PhanCongMinh/Web/teamdnt/Connections/cnn_teamdnt.php:10, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.320906 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 17:24:47.320970 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Stack trace:
+[Fri Apr 14 17:24:47.320976 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:47.320981 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 17:24:47.320989 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 17:24:47.320992 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Stack trace:
+[Fri Apr 14 17:24:47.320996 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 17:24:47.320999 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 17:24:47.336163 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.336175 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.336180 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.336185 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.336192 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.336203 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.336207 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 17:24:47.336211 2017] [:error] [pid 496] [client 127.0.0.1:52759] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.019360 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 18:17:57.019682 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:57.019712 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:57.019719 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 18:17:57.019734 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 18:17:57.019738 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:57.019743 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:57.019749 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 18:17:57.035751 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.035766 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.035771 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.035776 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.035783 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.035786 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.035800 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.035804 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.670762 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 18:17:57.670781 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:57.670795 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:57.670807 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 18:17:57.670817 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 18:17:57.670835 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:57.670840 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:57.670845 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 18:17:57.685788 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.685803 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.685807 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.685812 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.685819 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.685822 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.685826 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:57.685829 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.207440 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 18:17:58.207545 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:58.207567 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:58.207602 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 18:17:58.207637 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 18:17:58.207675 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:58.207685 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:58.207690 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 18:17:58.229926 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.229943 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.229949 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.229954 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.229962 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.229965 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.229982 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.229987 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.633400 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 18:17:58.633428 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:58.633436 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:58.633518 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 18:17:58.633535 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 18:17:58.633539 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:58.633544 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:58.633548 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 18:17:58.642306 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.642328 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.642334 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.642338 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.642346 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.642349 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.642352 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.642356 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:58.991872 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 18:17:58.991890 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:58.991896 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:58.991902 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 18:17:58.991911 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 18:17:58.991915 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:58.991919 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:58.991936 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 18:17:59.006703 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.006769 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.006775 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.006779 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.006788 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.006791 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.006795 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.006799 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.282054 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 18:17:59.282073 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:59.282081 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:59.282087 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 18:17:59.282097 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 18:17:59.282102 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:59.282106 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:59.282111 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 18:17:59.291700 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.291716 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.291721 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.291725 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.291733 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.291736 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.291739 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.291755 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.612849 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 18:17:59.612867 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:59.612873 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:59.612879 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 18:17:59.612888 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 18:17:59.612891 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:
+[Fri Apr 14 18:17:59.612896 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 18:17:59.612900 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 18:17:59.622561 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.622576 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.622581 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.622586 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.622593 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.622596 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.622600 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 18:17:59.622604 2017] [:error] [pid 12514] [client 127.0.0.1:53307] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.915711 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 23:01:05.916087 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Stack trace:
+[Fri Apr 14 23:01:05.916120 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:01:05.916140 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 23:01:05.916184 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 23:01:05.916188 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Stack trace:
+[Fri Apr 14 23:01:05.916191 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:01:05.916195 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 23:01:05.943255 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.943278 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.943297 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.943305 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.943313 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.943323 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.943327 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:01:05.943330 2017] [:error] [pid 12515] [client 127.0.0.1:53516] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.492072 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 23:14:35.492177 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Stack trace:
+[Fri Apr 14 23:14:35.492186 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:14:35.492190 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 23:14:35.492207 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 23:14:35.492211 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Stack trace:
+[Fri Apr 14 23:14:35.492214 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:14:35.492217 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 23:14:35.507917 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.507931 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.507949 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.507956 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.507964 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.507968 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.507971 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:14:35.507975 2017] [:error] [pid 12513] [client 127.0.0.1:53575] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.398274 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 23:15:42.398499 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Stack trace:
+[Fri Apr 14 23:15:42.398537 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:15:42.398564 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 23:15:42.398601 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 23:15:42.398608 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Stack trace:
+[Fri Apr 14 23:15:42.398615 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:15:42.398622 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 23:15:42.415579 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.415608 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.415681 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.415702 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.415727 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.415731 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.415735 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:42.415739 2017] [:error] [pid 12511] [client 127.0.0.1:53585] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.933450 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36
+[Fri Apr 14 23:15:49.933572 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Stack trace:
+[Fri Apr 14 23:15:49.933590 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:15:49.933598 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36
+[Fri Apr 14 23:15:49.933616 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38
+[Fri Apr 14 23:15:49.933620 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Stack trace:
+[Fri Apr 14 23:15:49.933623 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:15:49.933627 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38
+[Fri Apr 14 23:15:49.948327 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.948347 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.948353 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.948364 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:36, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.948372 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.948375 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.948379 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:15:49.948382 2017] [:error] [pid 12510] [client 127.0.0.1:53588] PHP   2. mysql_query() /Users/PhanCongMinh/Web/teamdnt/index.php:38, referer: http://teamdnt.dev/
+[Fri Apr 14 23:19:32.182448 2017] [:error] [pid 496] [client 127.0.0.1:53601] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35
+[Fri Apr 14 23:19:32.182645 2017] [:error] [pid 496] [client 127.0.0.1:53601] PHP Stack trace:
+[Fri Apr 14 23:19:32.182657 2017] [:error] [pid 496] [client 127.0.0.1:53601] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:19:59.128295 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35
+[Fri Apr 14 23:19:59.128368 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP Stack trace:
+[Fri Apr 14 23:19:59.128374 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:19:59.128378 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:35
+[Fri Apr 14 23:19:59.144147 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35, referer: http://teamdnt.dev/
+[Fri Apr 14 23:19:59.144158 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:19:59.144173 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:19:59.144178 2017] [:error] [pid 12515] [client 127.0.0.1:53606] PHP   2. mysql_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:35, referer: http://teamdnt.dev/
+[Fri Apr 14 23:21:02.058536 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, string given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35
+[Fri Apr 14 23:21:02.058610 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP Stack trace:
+[Fri Apr 14 23:21:02.058618 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0
+[Fri Apr 14 23:21:02.058623 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP   2. mysqli_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:35
+[Fri Apr 14 23:21:02.076113 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, string given in /Users/PhanCongMinh/Web/teamdnt/index.php on line 35, referer: http://teamdnt.dev/
+[Fri Apr 14 23:21:02.076129 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP Stack trace:, referer: http://teamdnt.dev/
+[Fri Apr 14 23:21:02.076134 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP   1. {main}() /Users/PhanCongMinh/Web/teamdnt/index.php:0, referer: http://teamdnt.dev/
+[Fri Apr 14 23:21:02.076151 2017] [:error] [pid 12513] [client 127.0.0.1:53610] PHP   2. mysqli_select_db() /Users/PhanCongMinh/Web/teamdnt/index.php:35, referer: http://teamdnt.dev/

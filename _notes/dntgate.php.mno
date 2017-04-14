@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscustom" value="name:kt_login_user;datatype:int,name:kt_login_password;datatype:int,name:kt_login_rememberme;datatype:int" />
+	<infoitem key="UD_rs_copyright" value="name:ID_copyright;datatype:int,name:businessname;datatype:string,name:businessaddress;datatype:string,name:businessphonenumber;datatype:string,name:businessemail;datatype:string,name:businesslogo;datatype:string,name:business_metakey;datatype:string,name:business_metades;datatype:blob,name:businessfanpageaddon;datatype:blob,name:businessgoogleanalytics;datatype:blob,name:businesswebsite;datatype:string" />
+</info>

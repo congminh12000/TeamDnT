@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_Recordset1" value="name:customerfullname;datatype:string,name:ID_customer;datatype:int" />
+	<infoitem key="UD_rsproject1" value="name:projectname;datatype:string,name:ID_customer;datatype:string,name:webdesign;datatype:int,name:graphicdesign;datatype:int,name:hosting;datatype:int,name:emailhosting;datatype:int,name:startdate;datatype:datetime,name:enddate;datatype:datetime,name:ID_project;datatype:int,name:projectorderlist;datatype:int" />
+</info>

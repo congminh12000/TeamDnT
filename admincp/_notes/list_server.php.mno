@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_Recordset1" value="name:agencyname;datatype:string,name:ID_agency;datatype:int" />
+	<infoitem key="UD_rsserver1" value="name:servername;datatype:string,name:ID_agency;datatype:string,name:serverexpirydate;datatype:datetime,name:serverip;datatype:string,name:ID_server;datatype:int" />
+</info>

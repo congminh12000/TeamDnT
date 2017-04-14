@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_Recordset1" value="name:projectname;datatype:string,name:ID_project;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:servicecode;datatype:string,name:ID_services;datatype:int" />
+	<infoitem key="UD_Recordset3" value="name:servername;datatype:string,name:ID_server;datatype:int" />
+	<infoitem key="UD_rsemailhosting1" value="name:ID_project;datatype:string,name:ID_services;datatype:string,name:emailhostingcount;datatype:int,name:ID_server;datatype:string,name:emailhostingexpirydate;datatype:datetime,name:ID_emailhosting;datatype:int" />
+</info>

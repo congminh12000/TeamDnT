@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="p7csspbm2/p7csspbm2_12.css,p7csspbm2/p7csspbm2_print.css,../css/font-awesome.css" />
+	<infoitem key="UD_rsagency" value="name:agencyname;datatype:int,name:agencylogo;datatype:int,name:agencyemail;datatype:int,name:agencyphonenumber1;datatype:int,name:agencyphonenumber2;datatype:int,name:agencyaddress;datatype:int,name:agencyfacebook;datatype:int,name:agencygoogle;datatype:int,name:agencyyoutube;datatype:int,name:ID_agency;datatype:int" />
+</info>

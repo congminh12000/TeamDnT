@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rs_sortproject" value="name:ID_project;datatype:int,name:projectname;datatype:string,name:emailhosting;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:projectname;datatype:string,name:ID_project;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:servicecode;datatype:string,name:ID_services;datatype:int" />
+	<infoitem key="UD_rs_sortservice" value="name:ID_services;datatype:int,name:servicename;datatype:string,name:servicecode;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:servername;datatype:string,name:ID_server;datatype:int" />
+	<infoitem key="UD_rs_sortserver" value="name:ID_server;datatype:int,name:servername;datatype:string" />
+	<infoitem key="UD_rsemailhosting" value="name:ID_project;datatype:int,name:ID_services;datatype:int,name:ID_server;datatype:int,name:emailhostingcount;datatype:int,name:emailhostingexpirydate;datatype:int,name:emailusernameroot;datatype:int,name:emailpasswordroot;datatype:int,name:ID_emailhosting;datatype:int" />
+</info>

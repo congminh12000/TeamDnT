@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rsnewscategory1" value="name:newscategoryname;datatype:string,name:newscategoryvisible;datatype:int,name:ID_newscategory;datatype:int,name:newscategoryorderlist;datatype:int" />
+</info>

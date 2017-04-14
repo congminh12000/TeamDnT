@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_copyright" value="name:ID_copyright;datatype:int,name:businessname;datatype:string,name:businessaddress;datatype:string,name:businessphonenumber;datatype:string,name:businessemail;datatype:string,name:businesslogo;datatype:string,name:business_metakey;datatype:string,name:business_metades;datatype:blob,name:businessfacebook;datatype:string,name:businessgoogle;datatype:string,name:businessyoutube;datatype:string,name:businessfanpageaddon;datatype:blob,name:businessgoogleanalytics;datatype:blob" />
+	<infoitem key="UD_rsaccount" value="name:fullname;datatype:int,name:email;datatype:int,name:avatar;datatype:int,name:username;datatype:int,name:password;datatype:int,name:registereddate;datatype:int,name:ID_account;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rsservices1" value="name:servicecode;datatype:string,name:servicename;datatype:string,name:servicepublicprice;datatype:int,name:ID_services;datatype:int" />
+</info>

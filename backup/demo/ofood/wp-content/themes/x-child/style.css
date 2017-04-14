@@ -1,0 +1,34 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+/*Header*/
+.x-navbar .desktop .x-nav > li > a{padding-top:20px!important;}
+.x-navbar .desktop .x-nav > li > a:hover, .x-navbar .desktop .x-nav > .x-active > a, .x-navbar .desktop .x-nav > .current-menu-item > a{background-color:#a11e29; box-shadow:none!important;}
+.x-logobar{background-color:#000!important;}
+.dat-ga-button{color:#fff; background-color:#cf3c48; padding:5px 20px;}
+.dat-ga-button:hover{color:#fff; background-color:#a11e29;}
+.x-navbar .mobile .x-nav > li > a:hover {color: #000000!important;}
+.current-menu-item {
+	background-color: #cf3c48;
+}
+.x-btn-navbar {margin-bottom: 10px;}
+/*Header*/
+/*Font*/
+.font1 {
+	color: #000000;
+	font-size: 16px;
+}
+/*Font*/
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 0px;
+	box-shadow: none;
+}

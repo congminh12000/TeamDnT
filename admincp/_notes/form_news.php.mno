@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rs_sortcategory" value="name:ID_newscategory;datatype:int,name:newscategoryname;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:username;datatype:string,name:ID_account;datatype:int" />
+	<infoitem key="UD_rsnews" value="name:newstitle;datatype:int,name:ID_newscategory;datatype:int,name:newsimage;datatype:int,name:newsshortdes;datatype:int,name:newscontent;datatype:int,name:newsview;datatype:int,name:checked;datatype:int,name:newsdate;datatype:int,name:ID_account;datatype:int,name:ID_news;datatype:int" />
+</info>

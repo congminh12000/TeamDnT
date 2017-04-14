@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rscontact" value="name:contactfullname;datatype:int,name:contactgroup;datatype:int,name:contactservice;datatype:int,name:contactemail;datatype:int,name:contactphonenumber;datatype:int,name:contacttitle;datatype:int,name:contactnotes;datatype:int,name:contactdate;datatype:int,name:ID_contact;datatype:int" />
+</info>

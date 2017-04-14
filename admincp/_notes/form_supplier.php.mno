@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="UD_rssupplier" value="name:suppliername;datatype:int,name:suppliercontactname;datatype:int,name:supplierlogo;datatype:int,name:supplierphonenumber1;datatype:int,name:supplierphonenumber2;datatype:int,name:supplieremail;datatype:int,name:supplieraddress;datatype:int,name:ID_supplier;datatype:int" />
+</info>
