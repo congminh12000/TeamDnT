@@ -1,4 +1,4 @@
-<?php 
+    <?php         
 require_once('Connections/cnn_teamdnt.php');?>
 <?php session_start();?>
 <?php
