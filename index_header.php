@@ -19,16 +19,17 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-ex1-collapse">
                             <ul class="nav navbar-nav navbar-right animated fadeIn">
-                                <li><a href="<?php echo $url ?>index.html" target="_self">Trang chủ</a></li>
-                                <li><a href="<?php echo $url ?>index.html#introduction" target="_self">Giới thiệu</a></li>
-                                <li class="dropdown"><a href="#" target="_self" class="dropdown-toggle" data-toggle="dropdown">Dịch vụ <b class="caret"></b></a>
+                            
+                                <li><a href="<?php echo $url ?>index.html" target="_self"><?php echo $lang['title']; ?></a></li>
+                                <li><a href="<?php echo $url ?>index.html#introduction" target="_self"><?php echo $lang['introduction']; ?></a></li>
+                                <li class="dropdown"><a href="#" target="_self" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['service']; ?><b class="caret"></b></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="<?php echo $url ?>index.html#services">Thiết kế website</a></li>
-                                            <li><a href="<?php echo $url ?>index.html#services">Thiết kế bộ nhận dạng thương hiệu</a></li>
-                                            <li><a href="<?php echo $url ?>index.html#services">Lưu trữ dữ liệu</a></li>
+                                            <li><a href="<?php echo $url ?>index.html#services"><?php echo $lang['devweb']; ?></a></li>
+                                            <li><a href="<?php echo $url ?>index.html#services"><?php echo $lang['devtrade']; ?></a></li>
+                                            <li><a href="<?php echo $url ?>index.html#services"><?php echo $lang['savedata']; ?></a></li>
                                         </ul>
                                 </li>
-                                <li><a href="<?php echo $url ?>contact.html" target="_self">Liên hệ</a></li>
+                                <li><a href="<?php echo $url ?>contact.html" target="_self"><?php echo $lang['contact']; ?></a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div>
